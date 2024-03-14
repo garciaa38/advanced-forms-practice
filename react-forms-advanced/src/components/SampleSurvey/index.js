@@ -1,3 +1,3 @@
-import SampleSurvey from './assets/sample.json';
+import SampleSurvey from './SampleSurvey';
 
 export default SampleSurvey;
