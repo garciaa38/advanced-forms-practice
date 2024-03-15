@@ -64,7 +64,7 @@ const data = {
         {
             "type":"section",
             "title":"Follow Up",
-            "instructions":"Please let us know how to connect with you."
+            "stem":"Please let us know how to connect with you."
         },
         {
             "stem": "What is your first name?",

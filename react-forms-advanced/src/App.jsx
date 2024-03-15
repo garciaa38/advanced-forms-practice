@@ -7,12 +7,13 @@ import './App.css'
 
 import Home from './components/Home/index';
 import SampleSurvey from './components/SampleSurvey/index';
+import TeacherSurvey from './components/TeacherSurvey/index';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Navigation />}>
       <Route path="sample-survey" element={<SampleSurvey />}/>
-      {/* <Route path="teacher-survey" element={<TeacherSurvey />}/> */}
+      <Route path="teacher-survey" element={<TeacherSurvey />}/>
       <Route path="/" element={<Home />}/>
       <Route path="*" element={<Navigate to="/" replace />} />
     </Route>
