@@ -1,8 +1,7 @@
-import { useState } from "react";
+import { useQuestionContext } from "../../../context/QuestionContext";
 
 export default function QuestionOne() {
-  const [questionOne, setQuestionOne] = useState(null);
-  const [otherQuestion, setOtherQuestion] = useState(false);
+  const { otherQuestion, setOtherQuestion, questionOne, setQuestionOne } = useQuestionContext();
 
   return (
     <div>
